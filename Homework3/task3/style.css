@@ -1,0 +1,544 @@
+@media (min-width: 900px){
+*{
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+
+
+
+.reg_main{
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.386);
+    border: none;
+}
+
+.header_text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.input_info img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.input_info{
+    display: flex;
+}
+.input_info input{
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+.input_info input:nth-child(3), select:nth-child(3){
+    width: 200px;
+    margin-left: 80px;
+    
+}
+.input_info input:nth-child(4){
+    width: 200px;
+    margin-left: 20px;
+    
+}
+
+select {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  option {
+    background-color: white;
+    color: black;
+  }
+  .password img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+  .password{
+    display: flex;
+  }
+  .password input{
+    
+    width: 18.5%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+  }
+
+  
+ .password input:last-child{
+    width: 20% !important;
+ }
+
+ hr{
+    border: 1px solid #ccc;
+ }
+
+
+
+
+
+
+
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 30px;
+    margin-right: 4px;
+  }
+  .switch:last-child{
+    margin-left: 70px;
+  }
+  .switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 1px 1px rgb(255, 55, 55);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 10px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 3px;
+    bottom: 3px;
+    background-color: rgb(255, 55, 55);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+.switch input:checked + .slider {
+    background-color: #ffffff;
+  }
+  
+.switch input:checked +.slider:before {
+    background-color: green;
+}
+  
+.switch input:checked + .slider{
+    box-shadow: 0px 0px 1px 1px green;
+}
+
+.switch input:checked + .slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(20px);
+  }
+  
+  .slider.round {
+    border-radius: 4px;
+  }
+.slider.round:before {
+    border-radius: 30%;
+  }
+.switch .text{
+    margin-left: 50px;
+}
+
+.submit{
+  background-color: rgba(23, 132, 103, 0.871);
+  border: none;
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 750px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 1px black;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  *{
+      margin-top: 10px;
+      margin-left: 10px;    
+  }
+  
+  
+  
+  .reg_main{
+      width: 600px;
+      height: 500px;
+      box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.386);
+      border: none;
+  }
+  
+  .header_text{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 250px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: lighter;
+  }
+  
+  .input_info img{
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+  }
+  .input_info{
+      display: flex;
+  }
+  .input_info input{
+      width: 40%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      border-bottom: 1px solid #ccc;
+  }
+  
+  .input_info input:nth-child(3), select:nth-child(3){
+      width: 200px;
+      margin-left: 80px;
+      
+  }
+  .input_info input:nth-child(4){
+      width: 200px;
+      margin-left: 20px;
+      
+  }
+  
+  select {
+      border: none;
+      outline: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: transparent;
+      border-bottom: 1px solid #ccc;
+      padding: 5px;
+    }
+    
+    option {
+      background-color: white;
+      color: black;
+    }
+    .password img{
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+  }
+    .password{
+      display: flex;
+    }
+    .password input{
+      
+      width: 18.5%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    
+   .password input:last-child{
+      width: 20% !important;
+   }
+  
+   hr{
+      border: 1px solid #ccc;
+   }
+  
+  
+  
+  
+  
+  
+  
+   .switch {
+      position: relative;
+      display: inline-block;
+      width: 53px;
+      height: 30px;
+      margin-right: 4px;
+    }
+    .switch:last-child{
+      margin-left: 70px;
+    }
+    .switch input[type="checkbox"] {
+      display: none;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ffffff;
+      box-shadow: 0px 0px 1px 1px rgb(255, 55, 55);
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 10px;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 15px;
+      width: 15px;
+      left: 3px;
+      bottom: 3px;
+      background-color: rgb(255, 55, 55);
+      -webkit-transition: .4s;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    
+  .switch input:checked + .slider {
+      background-color: #ffffff;
+    }
+    
+  .switch input:checked +.slider:before {
+      background-color: green;
+  }
+    
+  .switch input:checked + .slider{
+      box-shadow: 0px 0px 1px 1px green;
+  }
+  
+  .switch input:checked + .slider:before {
+      -webkit-transform: translateX(25px);
+      -ms-transform: translateX(25px);
+      transform: translateX(20px);
+    }
+    
+    .slider.round {
+      border-radius: 4px;
+    }
+  .slider.round:before {
+      border-radius: 30%;
+    }
+  .switch .text{
+      margin-left: 50px;
+  }
+  
+  .submit{
+    background-color: rgba(23, 132, 103, 0.871);
+    border: none;
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 350px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px black;
+  }
+}
+  
+  @media (max-width: 600px) {
+    *{
+        margin-top: 10px;
+        margin-left: 10px;    
+    }
+    
+    
+    
+    .reg_main{
+        width: 500px;
+        height: 500px;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.386);
+        border: none;
+    }
+    
+    .header_text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .input_info img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .input_info{
+    }
+    .input_info input{
+        width: 200px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .input_info input:nth-child(3), select:nth-child(3){
+        width: 200px;
+        
+    }
+    .input_info input:nth-child(4){
+        width: 200px;
+        margin-left: 55px;
+        
+    }
+    
+    select {
+        border: none;
+        outline: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: transparent;
+        border-bottom: 1px solid #ccc;
+        padding: 5px;
+      }
+      
+      option {
+        background-color: white;
+        color: black;
+      }
+      .password img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+      .password{
+        display: flex;
+      }
+      .password input{
+        
+        width: 18.5%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 1px solid #ccc;
+      }
+    
+      
+     .password input:last-child{
+        width: 20% !important;
+     }
+    
+     hr{
+        border: 1px solid #ccc;
+     }
+    
+    
+    
+    
+    
+    
+    
+     .switch {
+        position: relative;
+        display: inline-block;
+        width: 53px;
+        height: 30px;
+        margin-right: 4px;
+      }
+      .switch:last-child{
+        margin-left: 70px;
+      }
+      .switch input[type="checkbox"] {
+        display: none;
+      }
+      
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 1px 1px rgb(255, 55, 55);
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 10px;
+      }
+      
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        left: 3px;
+        bottom: 3px;
+        background-color: rgb(255, 55, 55);
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+      }
+      
+    .switch input:checked + .slider {
+        background-color: #ffffff;
+      }
+      
+    .switch input:checked +.slider:before {
+        background-color: green;
+    }
+      
+    .switch input:checked + .slider{
+        box-shadow: 0px 0px 1px 1px green;
+    }
+    
+    .switch input:checked + .slider:before {
+        -webkit-transform: translateX(25px);
+        -ms-transform: translateX(25px);
+        transform: translateX(20px);
+      }
+      
+      .slider.round {
+        border-radius: 4px;
+      }
+    .slider.round:before {
+        border-radius: 30%;
+      }
+    .switch .text{
+        margin-left: 50px;
+    }
+    
+    .submit{
+      background-color: rgba(23, 132, 103, 0.871);
+      border: none;
+      width: 200px;
+      height: 40px;
+      text-transform: uppercase;
+      color: white;
+      margin-left: 250px;
+      margin-top: 0px;
+      border-radius: 5px;
+      box-shadow: 0 0 1px black;
+    }
+}

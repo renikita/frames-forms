@@ -1,0 +1,78 @@
+*{
+    margin-left: 20px;
+}
+.yellowcard{
+    text-transform: uppercase;
+    background-color: rgb(227, 110, 7);
+    width: 70%;
+    margin-left: -30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+  
+}
+.yellowcard h1{
+    margin-left: 60px;
+}
+.container{
+    justify-self: auto;
+    background-color: rgb(77, 170, 189);
+    width: 800px;
+    height: 400px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    
+}
+.container img{
+    width: 300px;
+    margin-left: 72%;
+    margin-top: -200px;
+}
+.form{
+    color:rgb(40, 98, 116);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form input{
+    margin-top: 10px;
+    background-color: rgb(132, 207, 222);
+    border: none;
+    box-shadow: 0 1px 0.5px black; 
+    width: 400px;
+    height: 30px;
+    color: black;
+    margin-left: 0px;
+}
+.sform{
+    color:rgb(40, 98, 116);
+    margin-top: 20px;
+    margin-left: 20px;  
+    display: flex;
+   
+    
+}
+.sform input{
+    margin-top: 10px;
+    background-color: rgb(132, 207, 222);
+    border: none;
+    box-shadow: 0 1px 0.5px black; 
+    width: 100px;
+    height: 30px;
+    color: black;
+    margin-left: 40px; 
+    
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 378px;
+}
+.text:first-child{
+    margin-left: 0px;
+}
+.sform input:first-child{
+    margin-left: 0px; 
+}
