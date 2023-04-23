@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="reg_main">
+        <header>
+            <br>
+            <section class="header_text">
+            <h2 class=>Registration form</h2>
+            <h2>Personal details</h2>
+           </section>
+        </header>
+        <section class="global">
+            <form class="input_info">
+                <img src="img/username.png" alt="username">
+                <input type="text" name="username" placeholder="Username">
+                <input type="text" name="firstname" placeholder="First name">
+                <input type="text" name="lastname" placeholder="Last name">
+            </form>
+            <form class="input_info">
+                <img src="img/email.png" alt="email">
+                <input type="text" name="email" placeholder="Email adress">
+                <select name="sex" id="sex-select">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="female">Other</option>
+                </select>
+                <input type="date" id="start" name="trip-start" value="mm/dd/yyyy" min="1900-01-01" max="2040-01-01">
+            </form>
+            <form class="password">
+                <img src="img/pswd.png" alt="username">
+                <input type="text" name="username" placeholder="Password">
+                <input type="text" name="firstname" placeholder="Confirm password">
+            </form>
+            
+        </section>
+        <label for="subscribe" class="switch">
+            <input type="checkbox" id="subscribe">
+            <span class="slider round"></span>
+        </label>
+        I want to receive news and speacial offers
+        <br>
+        <label for="subscribe-2" class="switch">
+            <input type="checkbox" id="subscribe-2">
+            <span class="slider round"></span>
+        </label>
+        I agree with the Terms and Conditions
+        <footer>
+            <br>
+            <hr>
+            <button class="submit">submit</button>
+        </footer>
+        </main>
+</body>
+</html>

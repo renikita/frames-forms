@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="Inputs">
+        <h2>Inputs</h2>    
+        <form class="forms"> <!--! form + s = form section -->
+            <input type="text" class="Wait" placeholder="Enter some text">
+            <input type="text" class="right" placeholder="valid text">
+            <img src="image/valid.png" alt="valid" class="right_img">
+            <input type="text" class="fail" placeholder="invalid text">
+            <img src="image/invalid.png" alt="valid" class="fail_img">
+        </form>
+
+        </section>
+        <section class="Check_boxes">
+        <h2>Check boxes</h2>
+        <label for="subscribe" class="switch">
+            <input type="checkbox" id="subscribe">
+            <span class="slider round" checked></span>
+            <span class="text">Subscribe</span>
+        </label>
+        <label for="subscribe2" class="switch">
+            <input type="checkbox" id="subscribe" checked disabled>
+            <span class="slider round"></span><span class="text">Subscribe(disabled)</span>
+        </label>
+        
+        </section>
+
+
+        <section class="Radio_buttons">
+            <br>
+            <h2>Radio buttons</h2>
+            <label for="Gender" class="radio">
+                Gender:
+                <input type="radio" id="male" name="gender" value="male">
+                <span class="dote" checked></span>
+                Male
+                <input type="radio" id="female" name="gender" value="female">
+                Female
+              </label>
+        </section>
+        <section class="Buttons"></section>
+        <br>
+            <h2>Buttons</h2>
+            <label class="btn">
+                <button>Active</button>
+                <button>Hover</button>
+                <button>Danger</button>
+                <button>Hover</button>
+                <button disabled>disabled</button>
+                <button>+</button>
+                <button>-</button>
+            </label>
+        <section class="Text_area">
+            <h2>Text area</h2>
+         <textarea placeholder="Enter some text..."></textarea>   
+        </section>
+    </main>
+</body>
+</html>
